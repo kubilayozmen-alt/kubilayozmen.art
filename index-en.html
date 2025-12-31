@@ -18,17 +18,26 @@
 
     /* Language line */
     .lang {
-      font-size: 0.95rem;
-      margin-bottom: 2rem;   /* ASIL DÜZELTME BURASI */
+      font-size: 0.85rem;
+      margin-bottom: 2rem;
     }
 
     .lang a {
       color: #111111;
       text-decoration: none;
-      font-size: 0.95rem;
     }
 
-    /* Identity block */
+    .lang .active {
+      font-weight: 500;
+      pointer-events: none;
+      cursor: default;
+    }
+
+    .sep {
+      margin: 0 0.4rem;
+    }
+
+    /* Identity */
     .identity {
       margin-bottom: 1.5rem;
     }
@@ -40,6 +49,7 @@
     }
 
     p {
+      font-size: 0.95rem;
       margin: 0.25rem 0 0 0;
     }
 
@@ -50,8 +60,11 @@
     }
 
     nav a {
+      font-size: 0.95rem;
       color: #111111;
       text-decoration: none;
+      display: inline-block;
+      margin-right: 1rem;
     }
 
     nav a:hover {
@@ -64,7 +77,9 @@
 
   <!-- Language -->
   <div class="lang">
-    <a href="index.html">TR</a> | EN
+    <a href="index.html">TR</a>
+    <span class="sep">|</span>
+    <a href="index-en.html" class="active">EN</a>
   </div>
 
   <!-- Identity -->
@@ -75,10 +90,10 @@
 
   <!-- Menu -->
   <nav>
-    <a href="index-en.html">Home</a> |
-    <a href="projects-en.html">Projects</a> |
-    <a href="exhibitions-en.html">Exhibitions</a> |
-    <a href="about-en.html">About</a> |
+    <a href="index-en.html">Home</a>
+    <a href="projects-en.html">Projects</a>
+    <a href="exhibitions-en.html">Exhibitions</a>
+    <a href="about-en.html">About</a>
     <a href="contact-en.html">Contact</a>
   </nav>
 
