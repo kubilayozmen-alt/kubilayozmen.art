@@ -16,7 +16,7 @@
       line-height: 1.6;
     }
 
-    /* Dil satırı — index-en ile birebir */
+    /* Dil satırı — index-en ile birebir yapı */
     .lang {
       font-size: 0.85rem;
       margin-bottom: 2rem;
@@ -24,3 +24,61 @@
 
     .lang a {
       color: #111111;
+      text-decoration: none;
+    }
+
+    .lang span {
+      font-weight: 500;
+    }
+
+    /* Kimlik bloğu */
+    .identity {
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      font-weight: 500;
+      margin: 0;
+    }
+
+    p {
+      font-size: 0.95rem;
+      margin: 0.25rem 0 0 0;
+    }
+
+    /* Menü — index-en ile birebir */
+    nav {
+      margin-top: 1.5rem;
+      margin-bottom: 3rem;
+    }
+
+    nav a {
+      font-size: 0.95rem;
+      color: #111111;
+      text-decoration: none;
+      margin-right: 0.75rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Dil (aktif dil span, diğeri link) -->
+  <div class="lang">
+    <span>TR</span> | <a href="index-en.html">EN</a>
+  </div>
+
+  <!-- Kimlik -->
+  <div class="identity">
+    <h1>Kubilay Özmen</h1>
+    <p>Küratör / Araştırmacı / Sergi Tasarımcısı / Proje Koordinatörü</p>
+  </div>
+
+  <!-- Menü -->
+  <nav>
+    <a href="index.html"
