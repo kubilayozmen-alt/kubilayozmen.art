@@ -16,6 +16,7 @@
       line-height: 1.6;
     }
 
+    /* Dil satırı */
     .lang {
       font-size: 0.85rem;
       margin-bottom: 2rem;
@@ -26,10 +27,17 @@
       text-decoration: none;
     }
 
-    .lang span {
+    .lang .active {
       font-weight: 500;
+      pointer-events: none;
+      cursor: default;
     }
 
+    .sep {
+      margin: 0 0.4rem;
+    }
+
+    /* Kimlik */
     .identity {
       margin-bottom: 1.5rem;
     }
@@ -45,7 +53,7 @@
       margin: 0.25rem 0 0 0;
     }
 
-    /* MENÜ — görünmezlik riski sıfır */
+    /* Menü */
     nav {
       margin-top: 1.5rem;
       margin-bottom: 3rem;
@@ -55,37 +63,6 @@
       font-size: 0.95rem;
       color: #111111;
       text-decoration: none;
-      display: inline-block;   /* KRİTİK */
-      margin-right: 1rem;      /* GÜVENLİ BOŞLUK */
+      display: inline-block;
+      margin-right: 1rem;
     }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-
-<body>
-
-  <!-- Dil -->
-  <div class="lang">
-    <span>TR</span> | <a href="index-en.html">EN</a>
-  </div>
-
-  <!-- Kimlik -->
-  <div class="identity">
-    <h1>Kubilay Özmen</h1>
-    <p>Küratör / Araştırmacı / Sergi Tasarımcısı / Proje Koordinatörü</p>
-  </div>
-
-  <!-- Menü -->
-  <nav>
-    <a href="index.html">Anasayfa</a>
-    <a href="projects.html">Projeler</a>
-    <a href="exhibitions.html">Sergiler</a>
-    <a href="about.html">Hakkımda</a>
-    <a href="contact.html">İletişim</a>
-  </nav>
-
-</body>
-</html>
