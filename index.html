@@ -16,7 +16,6 @@
       line-height: 1.6;
     }
 
-    /* Dil satırı — index-en ile birebir yapı */
     .lang {
       font-size: 0.85rem;
       margin-bottom: 2rem;
@@ -31,7 +30,6 @@
       font-weight: 500;
     }
 
-    /* Kimlik bloğu */
     .identity {
       margin-bottom: 1.5rem;
     }
@@ -47,7 +45,7 @@
       margin: 0.25rem 0 0 0;
     }
 
-    /* Menü — index-en ile birebir */
+    /* MENÜ — görünmezlik riski sıfır */
     nav {
       margin-top: 1.5rem;
       margin-bottom: 3rem;
@@ -57,7 +55,8 @@
       font-size: 0.95rem;
       color: #111111;
       text-decoration: none;
-      margin-right: 0.75rem;
+      display: inline-block;   /* KRİTİK */
+      margin-right: 1rem;      /* GÜVENLİ BOŞLUK */
     }
 
     nav a:hover {
@@ -68,7 +67,7 @@
 
 <body>
 
-  <!-- Dil (aktif dil span, diğeri link) -->
+  <!-- Dil -->
   <div class="lang">
     <span>TR</span> | <a href="index-en.html">EN</a>
   </div>
