@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html margin-bottom: 1.5rem;="en">
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+  <meta charset="utf-8">
   <title>Kubilay Özmen</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,22 +16,20 @@
       line-height: 1.6;
     }
 
-    nav {
-      margin: 2rem 0 3rem 0;
+    /* Language */
+    .lang {
+      font-size: 0.85rem;
+      margin-bottom: 1.5rem; /* IMPORTANT SPACE */
     }
 
-    nav a {
+    .lang a {
       color: #111111;
       text-decoration: none;
     }
 
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    .lang {
-      font-size: 0.85rem;
-      margin-bottom: 2rem;
+    /* Identity */
+    .identity {
+      margin-bottom: 1.5rem;
     }
 
     h1 {
@@ -43,19 +41,36 @@
     p {
       margin: 0.25rem 0 0 0;
     }
+
+    /* Menu */
+    nav {
+      margin-top: 1.5rem;
+      margin-bottom: 3rem;
+    }
+
+    nav a {
+      color: #111111;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 
 <body>
 
   <!-- Language -->
-  <div>
+  <div class="lang">
     <a href="index.html">TR</a> | EN
   </div>
 
   <!-- Identity -->
-  <h1>Kubilay Özmen</h1>
-  <p>Curator / Researcher / Exhibition Designer / Project Coordinator</p>
+  <div class="identity">
+    <h1>Kubilay Özmen</h1>
+    <p>Curator / Researcher / Exhibition Designer / Project Coordinator</p>
+  </div>
 
   <!-- Menu -->
   <nav>
@@ -68,4 +83,3 @@
 
 </body>
 </html>
-
