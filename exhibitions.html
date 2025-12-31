@@ -16,74 +16,46 @@
       line-height: 1.6;
     }
 
-    .lang {
-      font-size: 0.85rem;
-      margin-bottom: 2rem;
-    }
+    .lang { font-size: 0.85rem; margin-bottom: 2rem; }
+    .lang a { color: #111; text-decoration: none; }
 
-    .lang a {
-      color: #111111;
-      text-decoration: none;
-    }
+    h1 { font-size: 1.4rem; font-weight: 500; margin-bottom: 2rem; }
 
-    h1 {
-      font-size: 1.4rem;
-      font-weight: 500;
-      margin-bottom: 2rem;
-    }
-
-    nav {
-      margin-bottom: 3rem;
-    }
-
+    nav { margin-bottom: 3rem; }
     nav a {
       font-size: 0.95rem;
-      color: #111111;
+      color: #111;
       text-decoration: none;
       margin-right: 1rem;
     }
 
-    nav a:hover {
-      text-decoration: underline;
-    }
+    main { max-width: 720px; }
 
-    main {
-      max-width: 720px;
-    }
-
-    .exhibition {
-      margin-bottom: 2.5rem;
-    }
-
-    .title {
+    .exhibition { margin-bottom: 2rem; }
+    .exhibition a {
       font-size: 1rem;
       font-weight: 500;
-      margin-bottom: 0.2rem;
+      color: #111;
+      text-decoration: none;
     }
+    .exhibition a:hover { text-decoration: underline; }
 
     .meta {
       font-size: 0.85rem;
-      color: #555555;
-      margin-bottom: 0.4rem;
-    }
-
-    .desc {
-      font-size: 0.95rem;
+      color: #555;
+      margin-top: 0.2rem;
     }
   </style>
 </head>
 
 <body>
 
-  <!-- Dil -->
   <div class="lang">
     TR | <a href="exhibitions-en.html">EN</a>
   </div>
 
-  <!-- Başlık -->
   <h1>Sergiler</h1>
 
-  <!-- Menü -->
   <nav>
     <a href="index.html">Anasayfa</a>
     <a href="projects.html">Projeler</a>
@@ -92,31 +64,16 @@
     <a href="contact.html">İletişim</a>
   </nav>
 
-  <!-- Liste -->
   <main>
 
     <div class="exhibition">
-      <div class="title">Bir Arşivden Kesitler</div>
-      <div class="meta">Küratör • 2026 • BM Çağdaş Sanat Merkezi</div>
-      <div class="desc">
-        Arşiv kavramını süreç, tanıklık ve ilişki ağı olarak ele alan grup sergisi.
-      </div>
-    </div>
-
-    <div class="exhibition">
-      <div class="title">Geçici Mekânlar</div>
+      <a href="exhibitions/gecici-mekanlar.html">Geçici Mekânlar</a>
       <div class="meta">Sergi Tasarımı • 2024 • İstanbul</div>
-      <div class="desc">
-        Mekân, dolaşım ve geçicilik kavramları etrafında kurgulanan sergi.
-      </div>
     </div>
 
     <div class="exhibition">
-      <div class="title">Kolektif Hafıza</div>
+      <a href="exhibitions/kolektif-hafiza.html">Kolektif Hafıza</a>
       <div class="meta">Proje Koordinasyonu • 2022 • Ankara</div>
-      <div class="desc">
-        Kolektif üretim ve hafıza pratiklerine odaklanan çok disiplinli sergi.
-      </div>
     </div>
 
   </main>
