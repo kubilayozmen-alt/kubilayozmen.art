@@ -27,17 +27,7 @@
       text-decoration: none;
     }
 
-    .lang .active {
-      font-weight: 500;
-      pointer-events: none;
-      cursor: default;
-    }
-
-    .sep {
-      margin: 0 0.4rem;
-    }
-
-    /* Identity */
+    /* Identity block */
     .identity {
       margin-bottom: 1.5rem;
     }
@@ -48,9 +38,17 @@
       margin: 0;
     }
 
-    p {
+    .role {
       font-size: 0.95rem;
       margin: 0.25rem 0 0 0;
+    }
+
+    /* Main statement (italic) */
+    .statement {
+      margin-top: 1.25rem;
+      font-size: 0.95rem;
+      max-width: 520px;
+      font-style: italic;
     }
 
     /* Menu */
@@ -63,39 +61,4 @@
       font-size: 0.95rem;
       color: #111111;
       text-decoration: none;
-      display: inline-block;
-      margin-right: 1rem;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-
-<body>
-
-  <!-- Language -->
-  <div class="lang">
-    <a href="index.html">TR</a>
-    <span class="sep">|</span>
-    <a href="index-en.html" class="active">EN</a>
-  </div>
-
-  <!-- Identity -->
-  <div class="identity">
-    <h1>Kubilay Özmen</h1>
-    <p>Curator / Researcher / Exhibition Designer / Project Coordinator</p>
-  </div>
-
-  <!-- Menu -->
-  <nav>
-    <a href="index-en.html">Home</a>
-    <a href="projects-en.html">Projects</a>
-    <a href="exhibitions-en.html">Exhibitions</a>
-    <a href="about-en.html">About</a>
-    <a href="contact-en.html">Contact</a>
-  </nav>
-
-</body>
-</html>
+      display: inl
